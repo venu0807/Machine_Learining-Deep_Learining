@@ -100,7 +100,6 @@ Stay tuned for updates!
 Feel free to connect with me if you have any questions, feedback, or collaboration opportunities:
 
 * **GitHub:** [venu0807](https://github.com/venu0807)
-* **(Optional) LinkedIn:** [Your LinkedIn Profile URL Here]
-* **(Optional) Email:** [Your Email Address Here]
+* **LinkedIn:** (https://www.linkedin.com/in/venu-gopal-reddy-palugulla-4948b8258/)
 
 Thank you for visiting my repository!
