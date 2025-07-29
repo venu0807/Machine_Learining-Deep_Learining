@@ -23,7 +23,7 @@ Below is a detailed overview of the projects currently hosted in this repository
 
 ### 1. Cricket IPL Player Performance Analysis
 
-* **File:** `1.Cricket_IPL.ipynb`
+* **File:** `1.IPL.csv`
 * **Description:** This project analyzes cricket player performance data from the Indian Premier League (IPL) across multiple seasons. The primary goal is to identify the most consistent players based on key batting and bowling statistics such as strike rate, average, and economy rate.
 * **Key Tasks Performed:**
     * Data loading and initial exploration.
@@ -36,7 +36,7 @@ Below is a detailed overview of the projects currently hosted in this repository
 
 ### 2. GDP vs. Happiness Index Analysis
 
-* **File:** `2.GDP_vs_Happiness_Index.ipynb`
+* **File:** `2.2015.csv`
 * **Description:** This project investigates the relationship between a country's GDP per capita and its happiness score using datasets from the World Bank and the World Happiness Report. The analysis includes global and regional correlation studies.
 * **Key Tasks Performed:**
     * Loading and preparing the datasets by selecting relevant columns: 'Country', 'Region', 'Economy (GDP per Capita)', and 'Happiness Score'.
@@ -48,7 +48,7 @@ Below is a detailed overview of the projects currently hosted in this repository
 
 ### 3. Customer Segmentation using K-Means Clustering
 
-* **File:** `3.Customer_Segmentation.ipynb`
+* **File:** `3.Mall_Customers.csv`
 * **Description:** This project performs customer segmentation for a retail store using the K-Means clustering algorithm on the "Mall Customers Dataset". The objective is to identify distinct customer groups based on their annual income and spending score to enable targeted marketing strategies.
 * **Key Tasks Performed:**
     * Loading and preparing the dataset.
@@ -61,7 +61,7 @@ Below is a detailed overview of the projects currently hosted in this repository
 
 ### 4. social_media_behavior using K-Means ,PCA and silhouette_score
 
-* **File:** `4.social_media_behavior.ipynb`
+* **File:** `4.social_media_behavior_dataset.csv`
 * **Description:** This project analyzes cricket player performance data from the Indian Premier League (IPL) across multiple seasons. The primary goal is to identify the most consistent players based on key batting and bowling statistics such as strike rate, average, and economy rate.
 * **Key Tasks Performed:**
     * Data loading and initial exploration.
