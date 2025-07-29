@@ -10,7 +10,7 @@ As I continue to learn and grow, I will be adding more exciting projects to this
   - [1. Cricket IPL Player Performance Analysis](#1-cricket-ipl-player-performance-analysis)
   - [2. GDP vs. Happiness Index Analysis](#2-gdp-vs-happiness-index-analysis)
   - [3. Customer Segmentation using K-Means Clustering](#3-customer-segmentation-using-k-means-clustering)
-  - [4.social_media_behavior using K-Means ,PCA and silhouette_score](#4.social_media_behavior.ipynb)
+  - [4. social_media_behavior using K-Means ,PCA and silhouette_score](#4.social_media_behavior.ipynb)
     
 - [How to Navigate This Repository](#how-to-navigate-this-repository)
 - [Technologies Used](#technologies-used)
@@ -59,7 +59,7 @@ Below is a detailed overview of the projects currently hosted in this repository
 * **Insights:** Five distinct customer segments were identified based on income and spending habits, providing valuable insights for tailored marketing and product recommendations.
 * **Next Steps (as per notebook):** Develop targeted marketing campaigns for each segment and further analyze demographic data (Gender, Age) within each cluster for more personalized strategies.
 
-### 4.social_media_behavior using K-Means ,PCA and silhouette_score
+### 4. social_media_behavior using K-Means ,PCA and silhouette_score
 
 * **File:** `4.social_media_behavior.ipynb`
 * **Description:** This project analyzes cricket player performance data from the Indian Premier League (IPL) across multiple seasons. The primary goal is to identify the most consistent players based on key batting and bowling statistics such as strike rate, average, and economy rate.
