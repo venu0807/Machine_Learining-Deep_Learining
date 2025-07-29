@@ -10,6 +10,8 @@ As I continue to learn and grow, I will be adding more exciting projects to this
   - [1. Cricket IPL Player Performance Analysis](#1-cricket-ipl-player-performance-analysis)
   - [2. GDP vs. Happiness Index Analysis](#2-gdp-vs-happiness-index-analysis)
   - [3. Customer Segmentation using K-Means Clustering](#3-customer-segmentation-using-k-means-clustering)
+  - [4.social_media_behavior using K-Means ,PCA and silhouette_score](#4.social_media_behavior.ipynb)
+    
 - [How to Navigate This Repository](#how-to-navigate-this-repository)
 - [Technologies Used](#technologies-used)
 - [Future Plans](#future-plans)
@@ -56,6 +58,21 @@ Below is a detailed overview of the projects currently hosted in this repository
     * Interpreting the characteristics of each customer segment (e.g., "Premiums," "Impulsives," "Careful Spenders," "Frugal").
 * **Insights:** Five distinct customer segments were identified based on income and spending habits, providing valuable insights for tailored marketing and product recommendations.
 * **Next Steps (as per notebook):** Develop targeted marketing campaigns for each segment and further analyze demographic data (Gender, Age) within each cluster for more personalized strategies.
+
+### 4.social_media_behavior using K-Means ,PCA and silhouette_score
+
+* **File:** `4.social_media_behavior.ipynb`
+* **Description:** This project analyzes cricket player performance data from the Indian Premier League (IPL) across multiple seasons. The primary goal is to identify the most consistent players based on key batting and bowling statistics such as strike rate, average, and economy rate.
+* **Key Tasks Performed:**
+    * Data loading and initial exploration.
+    * Calculation of  metrics (e.g., Likes & Shares) for each post.
+    * Analysis of consistency by calculating the standard deviation of performance metrics .
+    * The PCA-transformed data, when visualized with the identified clusters, shows distinct          groupings in the reduced-dimensional space, confirming the separation of the identified         user engagement groups.
+    * Hierarchical clustering was applied to the scaled data, resulting in 3 distinct clusters.
+    * t-SNE dimensionality reduction was successfully applied, and the visualization showed the       distribution of data points in a 2D space,colored by the hierarchical cluster assignments.
+    * Identification and visualization of posts.
+* **Insights:** The identified clusters represent distinct social media user engagement patterns based on likes and shares, which could be used for targeted content strategies.
+* **Next Steps (as per notebook):** While the silhouette score identified 4 as the optimal number for KMeans, visualizing these 4 clusters using t-SNE or other dimensionality reduction techniques could provide further qualitative insight into their separation and structure.
 
 ---
 
