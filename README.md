@@ -98,7 +98,7 @@ This repository primarily utilizes the following Python libraries:
 * **NumPy:** For numerical operations.
 * **Matplotlib:** For data visualization.
 * **Seaborn:** For enhanced statistical data visualization.
-* **Scikit-learn (sklearn):** For machine learning algorithms (e.g., K-Means clustering).
+* **Scikit-learn (sklearn):** For machine learning algorithms.
 
 ## Future Plans
 
@@ -117,6 +117,6 @@ Stay tuned for updates!
 Feel free to connect with me if you have any questions, feedback, or collaboration opportunities:
 
 * **GitHub:** [venu0807](https://github.com/venu0807)
-* **LinkedIn:** (https://www.linkedin.com/in/venu-gopal-reddy-palugulla-4948b8258/)
+* **LinkedIn:** [VenuGopalReddy](https://www.linkedin.com/in/venu-gopal-reddy-palugulla-4948b8258/)
 
 Thank you for visiting my repository!
