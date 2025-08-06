@@ -11,7 +11,7 @@ As I continue to learn and grow, I will be adding more exciting projects to this
   - [2. GDP vs. Happiness Index Analysis](#2-gdp-vs-happiness-index-analysis)
   - [3. Customer Segmentation using K-Means Clustering](#3-customer-segmentation-using-k-means-clustering)
   - [4. social_media_behavior using K-Means ,PCA and silhouette_score](#4-social_media_behavior-using-K-Means-PCA-and-silhouette_score)
-  - [5. Emotion_Detection_from_Text using ANN](#5-Emotion-Detection-from-Text-using-ANN)
+  - [5. Emotion_Detection_from_Text using ANN](#5-Emotion_Detection_from_Text-using-ANN)
     
 - [How to Navigate This Repository](#how-to-navigate-this-repository)
 - [Technologies Used](#technologies-used)
