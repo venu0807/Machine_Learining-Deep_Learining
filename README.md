@@ -117,6 +117,7 @@ This repository primarily utilizes the following Python libraries:
 * **Matplotlib:** For data visualization.
 * **Seaborn:** For enhanced statistical data visualization.
 * **Scikit-learn (sklearn):** For machine learning algorithms.
+* **Tensorflow.keras:** For deep learning algorithms.
 
 ## Future Plans
 
