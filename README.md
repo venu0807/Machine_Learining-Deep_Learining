@@ -11,6 +11,7 @@ As I continue to learn and grow, I will be adding more exciting projects to this
   - [2. GDP vs. Happiness Index Analysis](#2-gdp-vs-happiness-index-analysis)
   - [3. Customer Segmentation using K-Means Clustering](#3-customer-segmentation-using-k-means-clustering)
   - [4. social_media_behavior using K-Means ,PCA and silhouette_score](#4-social_media_behavior-using-K-Means-PCA-and-silhouette_score)
+  - [5. Emotion_Detection_from_Text using ANN](#5-Emotion-Detection-from-Text-using-ANN)
     
 - [How to Navigate This Repository](#how-to-navigate-this-repository)
 - [Technologies Used](#technologies-used)
@@ -73,6 +74,23 @@ Below is a detailed overview of the projects currently hosted in this repository
     * Identification and visualization of posts.
 * **Insights:** The identified clusters represent distinct social media user engagement patterns based on likes and shares, which could be used for targeted content strategies.
 * **Next Steps (as per notebook):** While the silhouette score identified 4 as the optimal number for KMeans, visualizing these 4 clusters using t-SNE or other dimensionality reduction techniques could provide further qualitative insight into their separation and structure.
+
+### 5. Emotion_Detection_from_Text using ANN
+
+* **File:** `5.emotions.csv`
+* **Description:** Analyze the provided text data from "/content/5. emotions.csv" to detect emotions using an Artificial Neural Network (ANN) model with an embedding layer, and evaluate the model's performance.
+* **Key Tasks Performed:**
+    * Data loading and initial exploration.
+    * The dataset contains 40,000 rows and 3 columns (tweet_id, sentiment, and content).
+    * After preprocessing, the text data was cleaned, tokenized, and padded to a maximum length of 50.
+    * The sentiment labels were encoded into 13 unique numerical classes.
+    * The data was split into training (32,000 samples) and testing (8,000 samples) sets.
+    * An ANN model with an embedding layer, a Global Average Pooling layer, and two dense layers was built and trained for 10 epochs.
+    * The model's performance on the test set was evaluated with the following metrics: Accuracy: {accuracy:.4f}, Precision: {precision:.4f}, Recall: {recall:.4f}, F1 Score: {f1_score_val:.4f}.
+    * The confusion matrix visualization showed the distribution of true and predicted labels across the 13 emotion classes.
+* **Insights:** The current model performance metrics (Accuracy, Precision, Recall, F1 Score) are low, suggesting that the model struggles to accurately classify emotions. Further model optimization, hyperparameter tuning, or exploring more complex architectures (e.g., using LSTM or GRU layers) could improve performance.
+* **Next Steps (as per notebook):** The confusion matrix indicates potential issues with specific emotion classes, where the model might be misclassifying or not predicting any instances. Analyzing the misclassified samples and the distribution of classes in the dataset could provide insights for improving the model, potentially through techniques like handling class imbalance or refining the text preprocessing steps.
+
 
 ---
 
